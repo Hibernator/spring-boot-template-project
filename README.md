@@ -99,7 +99,7 @@ To run this project (optional for new guys, **minimum 16GB RAM** if you want to 
 - Install [Docker and Docker Compose](https://linuxhint.com/install-docker-compose-ubuntu-22-04/) if you don't have your own database and message brokers
 - Run `git clone https://github.com/hieubz/spring-boot-based-project.git`
 - [Configure](https://www.jetbrains.com/help/idea/sdk.html#change-project-sdk) **JDK 11/17** for your project on **IntelliJ IDEA**
-- Run `docker-compose up -d` to start **MySQL**, **MongoDB**, **Redis**, **Kafka**, **ActiveMQ** and **Elasticsearch** (or update your database configs in **application.properties**)
+- Run `docker compose up -d` to start **MySQL**, **MongoDB**, **Redis**, **Kafka**, **ActiveMQ** and **Elasticsearch** (or update your database configs in **application.properties**)
   
     _Notes: **Elasticsearch** container requires much RAM on local_
 
